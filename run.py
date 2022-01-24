@@ -66,3 +66,11 @@ def display_credentials():  # display credentials
     funtion to display credentials
     """
     return Credentials.display_credentials()
+
+
+
+def delete_credential(account_platform):  # delete credential
+    '''
+    function to delete credentials
+    '''
+    return Credentials.delete_credentials(account_platform)
