@@ -74,3 +74,10 @@ def delete_credential(account_platform):  # delete credential
     function to delete credentials
     '''
     return Credentials.delete_credentials(account_platform)
+
+
+def find_credential(account_name):  # find a credential
+    '''
+    find credentials eg to delete
+    '''
+    return Credentials.find_by_account_platform(account_name)
