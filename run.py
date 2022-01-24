@@ -38,3 +38,14 @@ def check_user_password(username, password):  # check if the password is correct
     funtion to check whether the user enter the correct username and password
     '''
     return User.check_user(username, password)
+
+
+
+# create new credential
+def create_new_credential(account_name, account_username, account_password):
+    '''
+    function to create a new credential
+    '''
+    new_credential = Credentials(
+        account_name, account_username, account_password)
+    return new_credential
