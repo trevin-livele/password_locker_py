@@ -97,3 +97,5 @@ def main():  # main function
     # ask user name
     print("Hello, Whats your name?")
     name = input()
+    # greet the user
+    print(f"Welcome to Trevtech Password Locker {name} 😎😎😎😎😎. How can We help you")
