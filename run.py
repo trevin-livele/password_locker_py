@@ -10,3 +10,11 @@ def create_new_user(first_name, last_name, username, user_password):  # create a
     '''
     new_user = User(first_name, last_name, username, user_password)
     return new_user
+
+
+
+def save_user(user):  # save user
+    '''
+    save user
+    '''
+    return user.save_user()
