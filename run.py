@@ -24,3 +24,10 @@ def delete_user(username):  # delete user
     delete user
     '''
     return User.delete_user(username)
+
+
+def check_existing_user(username):  # check if the user exists
+    '''
+    check if user exists
+    '''
+    return User.user_exist(username)
