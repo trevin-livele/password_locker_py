@@ -18,3 +18,9 @@ def save_user(user):  # save user
     save user
     '''
     return user.save_user()
+
+def delete_user(username):  # delete user
+    '''
+    delete user
+    '''
+    return User.delete_user(username)
