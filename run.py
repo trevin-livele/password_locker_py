@@ -81,3 +81,11 @@ def find_credential(account_name):  # find a credential
     find credentials eg to delete
     '''
     return Credentials.find_by_account_platform(account_name)
+
+
+
+def generate_password(password_length):  # generate password
+    """
+    generate a random password for the user
+    """
+    return Credentials.generate_password(password_length)
