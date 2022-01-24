@@ -58,3 +58,11 @@ def save_credentials(credentials):  # save credentials
     function to save credentials
     '''
     credentials.save_credentials()
+
+
+
+def display_credentials():  # display credentials
+    """
+    funtion to display credentials
+    """
+    return Credentials.display_credentials()
