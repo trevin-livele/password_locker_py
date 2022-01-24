@@ -31,3 +31,10 @@ def check_existing_user(username):  # check if the user exists
     check if user exists
     '''
     return User.user_exist(username)
+
+
+def check_user_password(username, password):  # check if the password is correct
+    '''
+    funtion to check whether the user enter the correct username and password
+    '''
+    return User.check_user(username, password)
