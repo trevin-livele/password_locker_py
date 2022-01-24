@@ -89,3 +89,11 @@ def generate_password(password_length):  # generate password
     generate a random password for the user
     """
     return Credentials.generate_password(password_length)
+
+
+
+
+def main():  # main function
+    # ask user name
+    print("Hello, Whats your name?")
+    name = input()

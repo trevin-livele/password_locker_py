@@ -29,7 +29,7 @@ class Credentials():
         Credentials.user_credentials.remove(self)
 
 
-        
+
     @classmethod
     def find_by_account_platform(cls, account_platform):
         """
@@ -54,5 +54,5 @@ class Credentials():
         """
         alpa = string.ascii_letters + string.digits
         password = ''.join(random.choice(alpa)
-                           for i in range(password_length))
+                        for i in range(password_length))
         return password
