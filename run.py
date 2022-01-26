@@ -132,7 +132,7 @@ def main():  # main function
                       username, user_password))
             print('#'*50)
             print(
-                f"Hello {first_name}😃. Account created successfully. Proceed to login to access your account")
+                f"Hello {first_name}. Account created successfully. Proceed to login to access your account")
             print('#'*50)
         elif short_code == 'lg' or short_code == 'da':
             # login the user and check if the user exists
